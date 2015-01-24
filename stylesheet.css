@@ -1,0 +1,173 @@
+/* Simplifies calculations for dimensions of divs */
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 20px;
+	font-family: 'Roboto', 'Open Sans', sans-serif;
+	font-weight: bolder;
+}
+
+a:hover {
+	color: #af0006;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	/*background-image: url(file:///Users/Chris/eagle-1/images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;/
+	/*background-image: url(http://www.pixeden.com/media/k2/galleries/220/003-wood-melamine-subttle-pattern-background-pat.jpg);*/
+	/*background-color: #ffffff;*/
+}
+
+#body {
+	text-align: left;
+	clear: both;
+	margin: auto;
+	font-family: 'Roboto', sans-serif;
+	width: 1250px;
+	height: 750px;
+	/*background-color: #d3d3d3;*/
+}
+
+.body-head {
+	font-family: 'Noto Serif', serif;
+	font-size: 25px;
+	font-style: italic;
+	text-align: center;
+}
+
+#body-text-1 {
+	position: relative;
+	display: inline-block;
+	float: left;
+	padding-left: 40px;
+	padding-right: 15px;
+	width: 400px;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+#body-text-2 {
+	clear: both;
+	display: inline-block;
+	float: left;
+	padding-left: 40px;
+	width: 400px;
+}
+
+#client-list {
+	list-style-type: none; 
+}
+
+#construction {
+	float: left;
+	padding-left: 15px;
+	color: #af0006;
+}
+
+#eagle {
+	float: left;
+
+}
+
+footer {
+	clear: both;
+	right: 0;
+	left: 0;
+	margin-top: 100px;
+	height: 50px;
+	background-color: #d3d3d3;
+}
+
+header {
+	left: 0;
+	right: 0;
+	height: 50px;
+	background-color: #d3d3d3;
+}
+
+#img-holder {
+	display: inline-block;
+	padding-left: 100px;
+	padding-top: 30px;
+}
+
+#img-holder h1 {
+	display: none;
+}
+
+#img-holder img {
+	/*padding-top: 30px;
+	padding-left: 150px;*/
+	width: 500px;
+	height: 350px;
+}
+
+#logo-holder {
+	display: inline-block;
+	margin-left: 10px;
+	height: 50px;
+	width: 50px;
+}
+
+#logo-image {
+	height: 50px;
+	width: 50px;
+}
+
+#logo-text {
+	display: inline-block;
+	margin-left: 15px;
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 35px;	
+}
+
+#mission {
+	display: inline-block;
+}
+
+.nav {
+	display: inline-block;
+	float: left;
+	/*padding-left: 140px;*/
+	list-style-type: none;
+	width: 850px;
+}
+
+#nav-holder {
+	display: inline-block;
+	height: 50px;
+	width: 850px;
+}
+
+.nav li {
+	display: inline-block;
+	text-align: center;
+	width: 125px;
+	/*border-right: 2px solid #000000;*/
+	background-color: #d3d3d3;	
+}
+
+.nav li:first-child {
+	/*border-left: 2px solid #000000;*/
+}
+
+.wrapper {
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: 100%;
+}
