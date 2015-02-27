@@ -1,139 +1,58 @@
-/*#background {
-	position: fixed;
-	left: 0;
-	right: 0;
-	z-index: 1;
-	width: 100%;
-	height: 100%;
-	
-	
-	display: block;
-	background-image: url(http://cdn-7.free-nature-animal-butterfly-wallpaper.com/wallpapers/landscape4.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+/* Simplifies calculations for dimensions of divs */
 
-	-webkit-filter: blur(10px);
-  	-moz-filter: blur(10px);
-  	-o-filter: blur(10px);
-  	-ms-filter: blur(10px);
-  	filter: blur(10px); }
-
-
-/*#content {
-	position: absolute;
-  	left: 0;
-  	right: 0;
-  	z-index: 3;
-  	width: 100%;
-  	height: 100%;
-}*/
-
-body {
-	background-image: url(http://www.pixeden.com/media/k2/galleries/220/003-wood-melamine-subttle-pattern-background-pat.jpg);
-	background-color: #FFFFFF;
-	/*background-image: url(file:///Users/Chris/eagle-construction/images/alaska.jpg);
-	background-repeat: none;
-	background-size: auto;*/
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-.wrapper {
-	margin-left: auto;
-	margin-right: auto;
-	width: 1250px;
-	height: 500px;
-	z-index: 2;
-	/*background-color: #000000;*/
-	/*opacity: 0.1;*/
-}
-
-.banner {
-	float: left;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 50px;
-	height: 150px;
-	background-color: #d3d3d3;
-	border-radius: 5px;
-}
-
-#logo-text {
-	display: inline-block;
-	float-left;
-	padding-left: 0px;
-	font-family: 'Noto Serif', serif;
-	font-style: italic;
-	font-weight: bold;
-	font-size: 55px;	
-}
-
-#eagle {
-	float: left;
-	color: #AF0006;
-}
-
-#construction {
-	float: left;
-	padding-left: 20px;
-}
-
-#mission {
-	display: inline-block;
-	padding-left: 375px;
-}
-
-#logo-image {
-	display: inline-block;
-	float: right;
-	height: 150px;
-	width: 150px;
-	padding-right: 30px;
-}
-
-.header {
-	margin: 0 auto;
-	height: 200px;
-	max-width: 1000px;
-}
-
-.nav {
-	float: left;
-	list-style-type: none;
-}
-
-.nav:first-child {
-	float: left;
-}
-
-li {
-	display: inline-block;
-	/*width: 35px;*/
-	/*background-color: #FFFFFF;*/
-	background-color: #d3d3d3;
-	color: #000000;
+a {
+	text-decoration: none;
+	color: #fff;
 	font-size: 20px;
 	font-family: 'Roboto', 'Open Sans', sans-serif;
-	font-weight: bolder;
 }
 
-li:hover {
-	color: #AF0006;
+a:hover {
+	color: #af0006;
 }
 
-li div {
-	width: 175px;
-	height: 35px;
-	padding-top: 10px;
-	text-align: center;
+#address {
+	float: right;
+	margin-top: 35px;
+	margin-right: 125px;
+}
+
+#address-text {
+	font-family: 'Noto Serif', serif;
+	font-size: 17.5px;
+	color: #fff;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	/*background-image: url(file:///Users/Chris/eagle-1/images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;/
+	/*background-image: url(http://www.pixeden.com/media/k2/galleries/220/003-wood-melamine-subttle-pattern-background-pat.jpg);*/
 }
 
 #body {
-	text-align: left;
 	clear: both;
-	margin: auto;
+	margin-left: 0;
+	margin-right: 0;
+	text-align: left;
 	font-family: 'Roboto', sans-serif;
-	width: 1150px;
-	height: 100%;
-	background-color: #d3d3d3;
+	/*width: 1250px;*/
+	/*background-color: #d3d3d3;*/
+}
+
+.body-head {
+	font-family: 'Noto Serif', serif;
+	font-size: 25px;
+	text-align: center;
 }
 
 #body-text-1 {
@@ -143,47 +62,150 @@ li div {
 	padding-left: 40px;
 	padding-right: 15px;
 	width: 400px;
-	border-right: 1px solid #000000;
 }
 
 #body-text-2 {
-	clear: both;
 	display: inline-block;
-	float: left;
-	padding-left: 40px;
+	float: right;
 	width: 400px;
-	border-right: 1px solid #000000;
 }
 
-.body-head {
-	font-family: 'Noto Serif', serif;
-	font-size: 25px;
-	font-style: italic;
-	text-align: center;
+#client-list {
+	list-style-type: none; 
 }
 
-#img-holder {
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 694px;
-	height: 500px;
-}
-
-#img-holder img {
-	padding-left: 50px;
-	width: 605px;
-	height: 400px;
-}
-
-#footer {
+#construction {
 	clear: both;
-	margin-top: 30px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 25px;
-	width: 1150px;
+	margin-left: 30px;
+}
+
+#eagle {
+	float: left;
+}
+
+.first-letter {
+	font-size: 75px;
+}
+
+footer {
+	clear: both;
+	right: 0;
+	left: 0;
+	margin-top: 100px;
 	height: 50px;
 	background-color: #d3d3d3;
 }
 
+header {
+	position: absolute;
+	margin-top: 0px;
+	left: 0;
+	right: 0;
+	height: 200px;
+	/*background-color: #95a5a6;*/
+	background-color: #405b65;
+	/*background-image: url(https://unsplash.imgix.net/uploads/14115890754139bc8568d/d5e1ad1d?q=75&fm=jpg&s=4d0356a1dd7b363ade2f7185d45c62fa);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+
+header h1 {
+	font-family: 'Noto Serif', serif;
+	font-size: 50px;
+	color: #fff;
+}
+
+#img-holder {
+	display: inline-block;
+	padding-left: 30px;
+}
+
+#img-holder h1 {
+	display: none;
+}
+
+#img-holder img {
+	/*padding-top: 30px;
+	padding-left: 150px;*/
+	width: 600px;
+	height: 425px;
+}
+
+#logo-holder {
+	position: absolute;
+	display: inline-block;
+	margin-left: 75px;
+	margin-top: 7.5px;
+	height: 150px;
+	width: 500px;
+}
+
+#logo-image {
+	display: inline-block;
+	height: 75px;
+	width: 75px;
+}
+
+.logo-text {
+	display: block;
+	height: 65px;
+	font-family: 'Noto Serif', serif;
+	font-size: 30px;
+	color: #fff;	
+}
+
+.logo-text a {
+	padding-top: 20px;
+	padding-left: 12.5px;
+	float: right;
+}
+
+#menu {
+	clear: both;
+	left: 0;
+	right: 0;
+	margin-top: 175px;
+	height: 50px;
+	background-color: #95a5a6;
+	/*background-color: #405b65;*/
+}
+
+#mission {
+	position: absolute;
+	display: inline-block;
+	margin-top: 70px;
+	margin-left: 575px;
+}
+
+.nav {
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 75px;
+	width: 750px;
+}
+
+#nav-holder {
+	margin-left: 342.5px;
+	display: inline-block;
+	height: 50px;
+	width: 750px;
+}
+
+.nav li {
+	display: inline-block;
+	width: 125px;
+	text-align: center;
+}
+
+.nav li:first-child {
+	/*border-left: 2px solid #000000;*/
+}
+
+.wrapper {
+	position: absolute;
+	clear: both;
+	margin-top: 260px;
+	margin-right: 0;
+	margin-left: 0;
+	width: 100%;
+}
